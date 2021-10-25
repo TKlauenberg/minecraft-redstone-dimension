@@ -1,0 +1,22 @@
+{
+  "type": "dim_redstone:dim_type_redstone",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "lakes": false,
+      "features": false,
+      "biome": "minecraft:mushroom_fields",
+      "structures": {"stronghold": {"distance": 0,"count": 1,"spread": 0},"structures": {}},
+      "layers": [
+        {
+          "height": 1,
+          "block": "minecraft:bedrock"
+        },
+        {
+          "height": 50,
+          "block": "minecraft:quartz_block"
+        }
+      ]
+    }
+  }
+}
